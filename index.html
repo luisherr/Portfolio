@@ -1,81 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
 
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
     <header class="header">
-        <a href="#" class="logo">Portafolio</a>
-        <nav class="navbar">  
-            <a href="#home" class="active">Home</a>
-            <a href="#about">Acerca de</a>
-            <a href="#services">Servicios</a>
-            <a href="#portfolio">Portafolio</a>
-            <a href="#contact">Contacto</a>    
-        </nav>
-        <div class='bx bx-moon' id="darkMode-icon"></div>
+      <a href="#" class="logo">Portafolio</a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">Acerca de</a>
+        <a href="#services">Servicios</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+      <div class="bx bx-moon" id="darkMode-icon"></div>
     </header>
     <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hola, soy</h3>
-            <h1>Luis Herrera</h1>
-            <p>Como programador front end, tengo experiencia en HTML</p>
-            <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-                <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                <a href="#"><i class='bx bxl-github' ></i></a>
-            </div>
-
-            <a href="#" class="btn">Descargar CV</a>
+      <div class="home-content">
+        <h3>Hola, soy</h3>
+        <h1>Luis Herrera</h1>
+        <p>
+          Programador front end con experiencia en HTML, <br> CSS, JavaScript, NPM, 
+          Webpack y Next, enfocado <br> en el diseño de interfaces de usuario y
+          dispuesto a <br> aprender nuevas tecnologías.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-github"></i></a>
         </div>
 
-        <div class="profession-container">
-            <div class="profession-box">
-                <div class="profession" style="--i:0;">
-                    <i class='bx bx-code-alt'></i>
-                    <h3>Web Developer</h3>
-                </div>
-                <div class="profession" style="--i:1;">
-                    <i class='bx bx-palette' ></i>
-                    <h3>Diseñador Web</h3>
-                </div>
-                <div class="profession" style="--i:2;">
-                    <i class='bx bxl-react' ></i>
-                    <h3>Desarrollo en React</h3>
-                </div>
-                <div class="profession" style="--i:3;">
-                    <i class='bx bx-user-check'></i>
-                    <h3>Optimización Web</h3>
-                </div>
+        <a href="#" class="btn">Descargar CV</a>
+      </div>
 
-                <div class="circle"></div>
-            </div>
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Developer</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-palette"></i>
+            <h3>Diseñador Web</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bxl-react"></i>
+            <h3>Desarrollo en React</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bx-user-check"></i>
+            <h3>Optimización Web</h3>
+          </div>
 
-            <div class="overlay"></div>
+          <div class="circle"></div>
         </div>
+
+        <div class="overlay"></div>
+      </div>
     </section>
 
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="/assets//person.png" alt="person">
+      <div class="about-img">
+        <img src="/assets//person.png" alt="person" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">Sobre <span>mí</span></h2>
+        <h3>Hola!, estoy aquí para hacer tu Proyecto de Next!</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sed unde
+          sit maxime ab ullam quia mollitia cum quod consequatur quis rem,
+          commodi corrupti itaque eos, accusamus fugit adipisci totam.
+        </p>
+        <a href="#" class="btn">Leer más</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Mis <span>Servicios</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Desarrollo Web</h3>
+          <p>
+            Mi enfoque como desarrollador web es crear sitios y aplicaciones
+            interactivas con herramientas y tecnologías actualizadas. Habilidad
+            en lenguajes de programación como HTML, CSS, JavaScript y frameworks
+            como React. También tengo habilidades en resolución de problemas y
+            trabajo en equipo.
+          </p>
+          <a href="#" class="btn">Leer más</a>
         </div>
-        <div class="about-content">
-            <h2 class="heading">Sobre <span>mí</span></h2>
-            <h3>Hola!, estoy aquí para hacer tu Proyecto de Next!</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sed unde sit maxime ab ullam quia mollitia cum quod consequatur quis rem, commodi corrupti itaque eos, accusamus fugit adipisci totam.</p>
-            <a href="#" class="btn">Leer más</a>
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Posicionamiento en SEO</h3>
+          <p>
+            Habilidad en SEO para optimizar contenido y estructura del sitio
+            web, logrando aparecer en los primeros resultados de búsqueda de
+            Google. Con técnicas de investigación de palabras clave, enlaces y
+            etiquetas HTML, mejoro el ranking del sitio web en los motores de
+            búsqueda.
+          </p>
+          <a href="#" class="btn">Leer más</a>
         </div>
+        <div class="services-box">
+          <i class="bx bx-cog"></i>
+          <h3>Actualización y Mantenimiento</h3>
+          <p>
+            Actualizaciones de software, corrección de errores y monitoreo
+            continuo para evitar interrupciones. Mantenimiento de la seguridad y
+            el rendimiento del sitio para una experiencia de usuario mejorada.
+          </p>
+          <a href="#" class="btn">Leer más</a>
+        </div>
+      </div>
     </section>
 
     <script src="/script.js"></script>
-</body>
+  </body>
 </html>
